@@ -38,10 +38,8 @@
                 <%= link_to "Admin Area", madmin_root_path, class: "dropdown-item" %>
               <% end %>
               <div class="dropdown-divider"></div>
-              <%= button_to "Logout", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
             </div>
           </li>
-
         <% else %>
           <li class="nav-item"><%= link_to "Sign Up", new_user_registration_path, class: "nav-link" %></li>
           <li class="nav-item"><%= link_to "Login", new_user_session_path, class: "nav-link" %></li>
