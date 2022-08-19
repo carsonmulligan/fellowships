@@ -362,6 +362,7 @@ DEPENDENCIES
   sidekiq (~> 6.2)
   sitemap_generator (~> 6.1)
   spring
+  stimulus-rails
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
