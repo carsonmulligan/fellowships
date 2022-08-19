@@ -446,7 +446,7 @@ scholarships = [
     description: 'Provides funding for a year-long placement with nonprofit, public service, humanitarian, and government organizations in Latin America and the Caribbean.',
     url: 'https://pila-princeton.org/how-apply',
     due_date: '01/11/2022',
-    value: 1,
+    value: 1
   }
 ]
 
