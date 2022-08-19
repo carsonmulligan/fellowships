@@ -447,7 +447,6 @@ scholarships = [
     url: 'https://pila-princeton.org/how-apply',
     due_date: '01/11/2022',
     value: 1,
-    tag_list: "Asia"
   }
 ]
 
