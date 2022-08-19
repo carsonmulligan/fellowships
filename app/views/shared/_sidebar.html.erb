@@ -1,0 +1,35 @@
+<div id="sidebar" class="md:w-64 p-4 flex-shrink-0 border-r">
+        <div class="flex flex-col h-full text-sm" data-controller="dropdown" aria-haspopup="true" aria-expanded="false" data-dropdown-open-value="false">
+  <div class="flex md:block justify-between items-center">
+    <div class="flex md:block items-center">
+      <h1 class="mr-2 md:p-2 text-xl font-semibold">Madmin</h1>
+        <a class="block p-2 rounded hover:bg-gray-200" data-turbo="false" href="https://www.fellowships4you.com/">
+          ← Back <span class="hidden md:inline">to App</span>
+</a>    </div>
+
+    <div class="-mr-2 flex items-center md:hidden">
+      <button data-action="click->dropdown#toggle touch->dropdown#toggle click@window->dropdown#hide touch@window#dropdown->hide" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-200 focus:outline-none focus:ring-2 focus-ring-inset focus:ring-white" id="main-menu" aria-haspopup="true">
+        <span class="sr-only">Open main menu</span>
+        <!-- Heroicon name: outline/menu -->
+        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="md:flex flex-col flex-grow justify-between hidden" data-dropdown-target="menu">
+      <a class="block p-2 rounded hover:bg-gray-100" href="/madmin/active_storage/attachments">Active Storage /  Attachments</a>
+      <a class="block p-2 rounded hover:bg-gray-100" href="/madmin/active_storage/blobs">Active Storage /  Blobs</a>
+      <a class="block p-2 rounded hover:bg-gray-100" href="/madmin/active_storage/variant_records">Active Storage /  Variant Records</a>
+      <a class="block p-2 rounded hover:bg-gray-100" href="/madmin/announcements">Announcements</a>
+      <a class="block p-2 rounded hover:bg-gray-100" href="/madmin/notifications">Notifications</a>
+      <a class="block p-2 rounded hover:bg-gray-100" href="/madmin/services">Services</a>
+      <a class="block p-2 rounded hover:bg-gray-100 font-bold text-black" href="/madmin/users">Users</a>
+
+    <div class="mt-auto">
+      <a target="_blank" class="block p-2 rounded text-gray-500 hover:bg-gray-100" href="https://github.com/excid3/madmin">View Madmin on GitHub</a>
+    </div>
+  </div>
+</div>
+      </div>
