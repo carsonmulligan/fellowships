@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row justify-content-center">
+
+    <div class="container-fluid accordion" id="scholarshipAccordion">
+      <div class="row">
+        <div class="col-xs-6 col-sm-8 col-lg-10">
+            <% @scholarships.each do |scholarship| %>
+              <div class="accordion-item mb-2">
+                <h2 class="accordion-header" id="scholarshipItemHeading-<%= scholarship.id %>">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" style="background-color: white;" data-bs-parent="scholarshipItem" data-bs-target="#scholarshipItem-<%= scholarship.id %>">
+                    <%= scholarship.name %>
+                  </button>
+                </h2>
+
+                <div id="scholarshipItem-<%= scholarship.id %>" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                      <div class="container card my-3 justify-content-center">
+                        <div class="d-flex justify-content-between align-items-center py-2">
+                          <div>
+                            <p class="card-title"><%= scholarship.description %></p>
+                            <p class="card-subtitle text-muted">Due date: <%= scholarship.due_date.to_s %></p>
+
+                              <ul class="nav nav-pills card-header-pills">
+                                  <li class="btn btn-outline-dark">
+                                    <a href="<%= scholarship.url %>" target='_blank' class="nav-link">Apply</a>
+                                  </li>
+                                  <li class="btn btn-outline-dark">
+                                    <%= link_to "See", scholarship_path(scholarship) %>
+                                  </li>
+                              </ul>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
