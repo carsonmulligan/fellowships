@@ -194,6 +194,21 @@ scholarships = [
     value: 1
   },
   {
+    name: '🌏 🗣 🌐 Blakemore Freeman Fellowships for Advanced Study of Asian Languages',
+    description: 'Blakemore Freeman Fellowships are awarded for one academic year (two semesters or three quarters) of advanced level language study in East or Southeast Asia. Eligible languages are Chinese, Japanese, Korean, Indonesian, Khmer, Thai, and Vietnamese. Fellowships cover tuition, and a stipend for related educational expenses, basic living costs and transportation. The Blakemore Foundation makes grants for study only at specific language programs. Please refer to the current list of approved programs.',
+    url: 'https://www.blakemorefoundation.org/language',
+    due_date: '01/12/2022',
+    value: 1
+  },
+  {
+    name: '🌏 🗣 🌐 American Institute of India Studies Language Programs',
+    description: 'The AIIS Language Program offers nine-month academic year, summer and semester courses at elementary to advanced levels in many languages, including several that are rarely taught outside of India. The eligibility requirements vary depending on the particular program.  Applications for AIIS language programs are available in mid-September and are due by December 31; the selection process is finished by late February.
+    Courses regularly include: Bangla (Bengali), Gujarati, Hindi, Kannada, Malayalam, Marathi, Mughal Persian, Pali/Prakrit, Punjabi, Sanskrit, Tamil, Telugu, Urdu. In addition, instruction may be arranged in other languages such as: Kashmiri, Oriya, Sindhi, Tibetan',
+    url: 'indiastudies.org/language-programs/',
+    due_date: '01/31/2022',
+    value: 1
+  },
+  {
     name: '🌐 🧑‍🏫 🗣 Fulbright Hays Fellowship for Non-Western Languages',
     description: 'Department of Education Fellowship for educators, administrators, pre and post doctoral students. Focused on research and training overseas on non-Western language and area studies.',
     url: 'http://eca.state.gov/fulbright/fulbright-programs/program-summaries/fulbright-hays-program',
@@ -447,7 +462,15 @@ scholarships = [
     url: 'https://pila-princeton.org/how-apply',
     due_date: '01/11/2022',
     value: 1
+  },
+  {
+    name: '',
+    description: '',
+    url: '',
+    due_date: '01/12/2022',
+    value: 1
   }
+
 ]
 
 scholarships.each do |scholarship|
