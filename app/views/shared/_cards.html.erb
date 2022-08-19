@@ -1,9 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Album example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+    .accordion-button:after {
+ display: none;
+}
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+
+        .card-product {
+        overflow: hidden;
+        height: 120px;
+        background: white;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        display: flex;
+        align-items: center;
+      }
+
+      .card-product img {
+        height: 100%;
+        width: 120px;
+        object-fit: cover;
+      }
+
+      .card-product h2 {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+      }
+
+      .card-product p {
+        font-size: 12px;
+        line-height: 1.4;
+        opacity: .7;
+        margin-bottom: 0;
+        margin-top: 8px;
+      }
+
+      .card-product .card-product-infos {
+        padding: 16px;
+      }
+    </style>
+
+
+  </head>
+
+
+
+
 <div class="container">
   <div class="row justify-content-center">
 
     <div class="container-fluid accordion" id="scholarshipAccordion">
       <div class="row">
-        <div class="col-xs-6 col-sm-8 col-lg-10">
+        <div class="col-xs-auto">
             <% @scholarships.each do |scholarship| %>
               <div class="accordion-item mb-2">
                 <h2 class="accordion-header" id="scholarshipItemHeading-<%= scholarship.id %>">
@@ -20,12 +98,11 @@
                             <p class="card-title"><%= scholarship.description %></p>
                             <p class="card-subtitle text-muted">Due date: <%= scholarship.due_date.to_s %></p>
 
-                              <ul class="nav nav-pills card-header-pills">
-                                  <li class="btn btn-outline-dark">
+                                  <li class="btn btn-link">
                                     <a href="<%= scholarship.url %>" target='_blank' class="nav-link">Apply</a>
                                   </li>
-                                  <li class="btn btn-outline-dark">
-                                    <%= link_to "See", scholarship_path(scholarship) %>
+                                  <li class="btn btn-link">
+                                    <%= link_to "See more", scholarship_path(scholarship) %>
                                   </li>
                               </ul>
                           </div>
