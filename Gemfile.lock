@@ -101,6 +101,10 @@ GEM
       warden (~> 1.2.3)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
+    dotenv (2.7.6)
+    dotenv-rails (2.7.6)
+      dotenv (= 2.7.6)
+      railties (>= 3.2)
     erubi (1.11.0)
     faraday (2.5.2)
       faraday-net_http (>= 2.0, < 3.1)
@@ -348,6 +352,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   cssbundling-rails
   devise (~> 4.8, >= 4.8.0)
+  dotenv-rails
   foreman
   friendly_id (~> 5.4)
   hotwire-rails (~> 0.1.3)

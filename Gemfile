@@ -76,3 +76,4 @@ gem 'stimulus-rails'
 gem 'foreman'
 gem 'letter_opener', group: :development
 gem 'postmark-rails'
+gem 'dotenv-rails', groups: [:development, :test]

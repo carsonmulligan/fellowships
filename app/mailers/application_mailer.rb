@@ -1,5 +1,5 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: 'sendship.io@gmail.com'
+  default from: 'carson@fellowships4you.com'
 
   layout 'mailer'
 end
