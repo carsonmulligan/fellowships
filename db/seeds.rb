@@ -5,7 +5,7 @@ require 'date'
 User.destroy_all
 Scholarship.destroy_all
 
-user1 = User.create(email: 'carlos.miguel@gmail.com', password: '121212')
+user1 = User.create(email: 'carson@fellowships4you.com', password: '121212')
 puts "User created successfully"
 
 
