@@ -140,6 +140,10 @@ GEM
     jsbundling-rails (1.0.3)
       railties (>= 6.0.0)
     jwt (2.4.1)
+    launchy (2.5.0)
+      addressable (~> 2.7)
+    letter_opener (1.8.1)
+      launchy (>= 2.2, < 3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -344,6 +348,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   jquery-rails
   jsbundling-rails
+  letter_opener
   listen (~> 3.3)
   madmin
   name_of_person (~> 1.1)
