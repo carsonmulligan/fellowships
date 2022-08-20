@@ -74,3 +74,4 @@ gem 'jquery-rails'
 gem "hotwire-rails", "~> 0.1.3"
 gem 'stimulus-rails'
 gem 'foreman'
+gem 'letter_opener', group: :development
