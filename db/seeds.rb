@@ -462,15 +462,7 @@ scholarships = [
     url: 'https://pila-princeton.org/how-apply',
     due_date: '01/11/2022',
     value: 1
-  },
-  {
-    name: '',
-    description: '',
-    url: '',
-    due_date: '01/12/2022',
-    value: 1
   }
-
 ]
 
 scholarships.each do |scholarship|
