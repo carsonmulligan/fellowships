@@ -26,3 +26,8 @@ document.addEventListener("turbo:load", () => {
     return new bootstrap.Popover(popoverTriggerEl)
   })
 })
+
+
+function myFunction() {
+  $(".message").text("link copied");
+}

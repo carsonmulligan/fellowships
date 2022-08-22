@@ -16,11 +16,120 @@
         <p class="lead text-muted text-start"><%= @scholarship.description %></p>
         <p>
           <a href="<%= @scholarship.url %>" target='_blank' class="btn btn-outline-primary my-2">Apply</a>
-          <a href="<%= scholarship_path(@scholarship) %>" target='_blank' class="btn btn-outline-secondary my-2">Send</a>
         </p>
         <h1 class="lead text-muted"> Submit materials by: <%= @scholarship.due_date %></h1>
       </div>
     </div>
 
+
+<%#
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Send
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+      </div>
+       <div class="modal-footer">
+                        <label style="font-weight: 600">Page Link <span class="message"></span></label><br />
+                        <div class="row">
+                            <input class="col-10 ur" type="url" placeholder="https://www.arcardio.app/acodyseyy"
+                                id="myInput" aria-describedby="inputGroup-sizing-default" style="height: 40px;">
+                            <button class="cpy" onclick="myFunction()"><i class="far fa-clone"></i></button>
+                        </div>
+                    </div>
+
+  </div>
+</div>
+
+
+
+<div class='container d-flex justify-content-center mt-100'>
+        <button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#exampleModal">
+            Share on social media
+        </button>
+    </div>
+
+
+
+
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content col-12">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Share</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="icon-container1 d-flex">
+                            <div class="smd">
+                                <i class=" img-thumbnail fab fa-twitter fa-2x"
+                                    style="color:#4c6ef5;background-color: aliceblue"></i>
+                                <p>Twitter</p>
+                            </div>
+                            <div class="smd">
+                                <i class="img-thumbnail fab fa-facebook fa-2x"
+                                    style="color: #3b5998;background-color: #eceff5;"></i>
+                                <p>Facebook</p>
+                            </div>
+                            <div class="smd">
+                                <i class="img-thumbnail fab fa-reddit-alien fa-2x"
+                                    style="color: #FF5700;background-color: #fdd9ce;"></i>
+                                <p>Reddit</p>
+                            </div>
+                            <div class="smd">
+                                <i class="img-thumbnail fab fa-discord fa-2x "
+                                    style="color: #738ADB;background-color: #d8d8d8;"></i>
+                                <p>Discord</p>
+                            </div>
+                        </div>
+                        <div class="icon-container2 d-flex">
+                            <div class="smd">
+                                <i class="img-thumbnail fab fa-whatsapp fa-2x"
+                                    style="color:  #25D366;background-color: #cef5dc;"></i>
+                                <p>Whatsapp</p>
+                            </div>
+                            <div class="smd">
+                                <i class="img-thumbnail fab fa-facebook-messenger fa-2x"
+                                    style="color: #3b5998;background-color: #eceff5;"></i>
+                                <p>Messenger</p>
+                            </div>
+                            <div class="smd">
+                                <i class="img-thumbnail fab fa-telegram fa-2x"
+                                    style="color:  #4c6ef5;background-color: aliceblue"></i>
+                                <p>Telegram</p>
+                            </div>
+                            <div class="smd">
+                                <i class="img-thumbnail fab fa-weixin fa-2x"
+                                    style="color: #7bb32e;background-color: #daf1bc;"></i>
+                                <p>WeChat</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <label style="font-weight: 600">Page Link <span class="message"></span></label><br />
+                        <div class="row">
+                            <input class="col-10 ur" type="url" placeholder="https://www.arcardio.app/acodyseyy"
+                                id="myInput" aria-describedby="inputGroup-sizing-default" style="height: 40px;">
+                            <button class="cpy" onclick="myFunction()"><i class="far fa-clone"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> %>
 
   </section>
