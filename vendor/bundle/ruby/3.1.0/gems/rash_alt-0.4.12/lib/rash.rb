@@ -1,0 +1,1 @@
+require 'hashie/mash/rash'

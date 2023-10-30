@@ -366,10 +366,12 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
   bootsnap (>= 1.4.4)
+  bundler (~> 2.4.21)
   byebug
   capybara (>= 3.26)
   cssbundling-rails
@@ -412,7 +414,7 @@ DEPENDENCIES
   whenever
 
 RUBY VERSION
-   ruby 3.0.3p157
+   ruby 3.1.2p20
 
 BUNDLED WITH
-   2.2.32
+   2.4.21

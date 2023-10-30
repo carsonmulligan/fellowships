@@ -1,0 +1,8 @@
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/llhttp-ffi-0.4.0/ext
+/Users/carsonmulligan/.rbenv/versions/3.1.2/bin/ruby -I/Users/carsonmulligan/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -rrubygems /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/rake-13.1.0/exe/rake RUBYARCHDIR\=/Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-23/3.1.0/llhttp-ffi-0.4.0 RUBYLIBDIR\=/Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/extensions/arm64-darwin-23/3.1.0/llhttp-ffi-0.4.0
+clang -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o aarch64-darwin/llhttp/api.o -c ./llhttp/api.c
+mkdir -p aarch64-darwin/llhttp
+clang -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o aarch64-darwin/llhttp/http.o -c ./llhttp/http.c
+clang -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o aarch64-darwin/llhttp/llhttp.o -c ./llhttp/llhttp.c
+clang -fexceptions -O -fno-omit-frame-pointer -fno-strict-aliasing   -o aarch64-darwin/llhttp/llhttp_ext.o -c ./llhttp/llhttp_ext.c
+clang -bundle -o aarch64-darwin/libllhttp-ext.bundle aarch64-darwin/llhttp/api.o aarch64-darwin/llhttp/http.o aarch64-darwin/llhttp/llhttp.o aarch64-darwin/llhttp/llhttp_ext.o -fexceptions 

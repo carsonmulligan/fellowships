@@ -1,0 +1,124 @@
+= Changelog
+
+== 0.22.1
+* Migrated to ActiveCampaign
+
+== 0.22.0
+
+* Added support for Rails 7
+
+== 0.21.0
+
+* Update minimum postmark gem dependency to avoid use of TLS v1
+
+== 0.20.0
+
+* Update the postmark gem dependency to 1.x
+* Added support for Rails 6
+* Dropped support for Ruby 1.8.7 and 1.9.3
+* Added support for Ruby 2.7
+
+== 0.19.0
+
+* Update the postmark gem dependency to 1.15.x.
+* Added support for templated mailers.
+* Added source_code_uri to the gemspec.
+* Tested against all stable versions of ActionMailer 3.0-5.2 and Ruby 1.8.7-2.6.0.
+
+== 0.18.0
+
+* Update the postmark gem dependency to 1.14.x.
+
+== 0.17.0
+
+* Add support for metadata.
+* Update the postmark gem dependency to 1.13.x.
+
+== 0.16.0
+
+* Update the postmark gem dependency to 1.11.x.
+* Added a section on error handling to the README.
+
+== 0.15.0
+
+* Update the postmark gem dependency to 1.10.x.
+
+== 0.14.0
+
+* Update the postmark gem dependency to 1.9.x.
+
+== 0.13.0
+
+* Update the postmark gem dependency to 1.8.x.
+* Verified ActionMailer 5.0 support.
+
+== 0.12.0
+
+* Updated the postmark gem dependency to 1.7.x.
+
+== 0.11.0
+
+* Updated the postmark gem dependency to 1.6.x.
+
+== 0.10.0
+
+* Updated the postmark gem dependency to 1.5.x
+* Called API access strings tokens instead of keys in documentation and code. Kept backwards compatibility.
+
+== 0.9.0
+
+* Enabled HTTPS by default.
+* Added custom User-Agent header.
+* Updated the postmark gem dependency to 1.4.x.
+
+== 0.8.0
+
+* Added support for open tracking.
+* Updated the postmark gem dependency to 1.3.x.
+
+== 0.7.0
+
+* Updated the postmark gem dependency to 1.2.x.
+
+== 0.6.0
+
+* Updated the postmark gem dependency.
+* Inherited inline images support.
+
+== 0.5.2
+
+* Removed the legacy code providing Rails 2 support.
+* Added a Railtie for proper initialization in Rails 3+.
+* Removed the post-install message.
+
+== 0.5.1
+
+* Upgraded actionmailer dependency to use >= 3.0.0.
+* Added multiple gemfiles to test against multiple actionmailer versions (currently 3.0.x, 3.2.x, 4.0.x).
+
+== 0.5.0
+
+* Added integration specs.
+* Updated the postmark gem dependency to 1.0.x.
+* Removed attachments fix.
+* Replaced README.rdoc with README.md.
+* Added unit and integration tests for messages with attachemtns.
+* Added batch delivery support.
+
+== 0.4.2
+
+* Updated the gem’s environment.
+* Fixed the postmark gem dependency on 0.9.x.
+* Added Travis-CI for integration testing.
+
+== 0.4.1
+
+* Fixed "returning" deprecation warning.
+
+== 0.4.0
+
+* Attachments support.
+
+== 0.3.0
+
+* Added support for Rails 3.

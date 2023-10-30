@@ -1,0 +1,17 @@
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+/Users/carsonmulligan/.rbenv/versions/3.1.2/bin/ruby -I /Users/carsonmulligan/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20231030-93560-67lsli.rb extconf.rb
+checking for -lstdc++... yes
+creating Makefile
+
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= clean
+
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\=
+compiling unf.cc
+linking shared-object unf_ext.bundle
+ld: warning: ignoring duplicate libraries: '-lc++'
+
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/unf_ext-0.0.8.2/ext/unf_ext
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20231030-93560-l0urga

@@ -1,0 +1,13 @@
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+/Users/carsonmulligan/.rbenv/versions/3.1.2/bin/ruby -I /Users/carsonmulligan/.rbenv/versions/3.1.2/lib/ruby/3.1.0 -r ./siteconf20231030-93560-royk3h.rb extconf.rb
+creating Makefile
+
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= clean
+
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\=
+make: Nothing to be done for `all'.
+
+current directory: /Users/carsonmulligan/fellowships/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= install
