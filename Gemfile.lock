@@ -165,8 +165,8 @@ GEM
     loofah (2.21.4)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    madmin (1.2.6)
-      pagy (>= 3.5, < 6.0)
+    madmin (1.2.8)
+      pagy (>= 3.5)
       rails (>= 6.0.3)
     mail (2.8.1)
       mini_mime (>= 0.1.1)
@@ -226,8 +226,7 @@ GEM
       omniauth-oauth (~> 1.1)
       rack
     orm_adapter (0.5.0)
-    pagy (5.10.1)
-      activesupport
+    pagy (6.1.0)
     pg (1.4.3)
     postmark (1.22.1)
       json
@@ -385,7 +384,7 @@ DEPENDENCIES
   jsbundling-rails
   letter_opener
   listen (~> 3.3)
-  madmin
+  madmin (~> 1.2)
   name_of_person (~> 1.1)
   noticed (~> 1.4)
   omniauth-facebook (~> 8.0)
