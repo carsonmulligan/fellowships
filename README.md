@@ -8,7 +8,7 @@ A simple place to find, save, and apply for prestigious fellowships. Check out t
 3.1.2
 * Rails version
 7.0.3
-
+```
 require 'open-uri'
 require 'json'
 require 'date'
