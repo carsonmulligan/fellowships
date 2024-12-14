@@ -9,16 +9,6 @@ A simple place to find, save, and apply for prestigious fellowships. Check out t
 * Rails version
 7.0.3
 ```
-require 'open-uri'
-require 'json'
-require 'date'
-
-User.destroy_all
-Scholarship.destroy_all
-
-user1 = User.create(email: 'carson@fellowships4you.com', password: '121212')
-puts "User created successfully"
-
 
 scholarships = [
   {
