@@ -9,7 +9,7 @@ A simple place to find, save, and apply for prestigious fellowships. Check out t
 * Rails version
 7.0.3
 ```
-
+# Date Format == DD/MM/YYYY
 scholarships = [
   {
     name: '🇬🇧 Rhodes Scholarship',
